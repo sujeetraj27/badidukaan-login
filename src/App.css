@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.loginwith_mobile {
+  
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobile__login {
+  position: relative;
+  top: 3rem;
+  background-color: cadetblue;
+  height: 200px;
+  border: 1px solid;
+  color: black;
+  border-radius: 10px;
+}
+
+.mobile__login > form {
+  position: relative;
+  top: 2rem;
+  padding: 10px;
+}
+
+.mobile__login > input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.mobile__login > input[type=number] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.another__login{
+  margin-top: 20px;
+}
+.another__login > a{
+  text-decoration: none;
+}
