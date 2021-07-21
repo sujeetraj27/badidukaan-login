@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
    <BrowserRouter>
+   
    <Switch>
      <Route exact path='/login' component={Login}></Route>  
      <ProtectedRoute exact path='/' component={Home}/> 
